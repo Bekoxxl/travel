@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 105px;
+}
+    /* ===== navbar ===== */
+.navbar {
+    border-bottom: 4px solid #20c997;
+    top: 0;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 900;
+    border-bottom: 3px solid #20c997;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.tr-logo {
+    color: #20c997;
+}
+
+.navbar-toggler {
+    border-color: #20c997;
+    padding: 4px 6px;
+}
+
+.navbar-toggler:active {
+    box-shadow: #20c997;
+}
+    /* ===== navbar media mobile ===== */
+@media only screen and (max-width: 447px) {
+
+    body {
+        padding-top: 65px;
+    }
+    
+    .navbar {
+        border-bottom: 4px solid #20c997;
+        top: 0;
+    }
+    
+    .navbar-brand {
+        font-size: 20px;
+        font-weight: 700;
+        border-bottom: 2px solid #20c997;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    .navbar-toggler {
+        border-color: #20c997;
+        padding: 0px 2px;
+
+    }
+    
+    .navbar-toggler-icon {
+        width: 20px;
+        line-height: 10px;
+        padding: 0;
+        /* height: 20px; */
+    }
+}
+
+
+    /* ===== carusel ===== */
+.carousel{
+    border: 2px  solid #20c997;
+}
+
+.carusel-heading{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 50%;
+    padding-bottom: 30px;
+    padding-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: #20c997 8px solid;
+}
+
+.our-company-heading {
+    color: #20c997;
+}
+
+.carusel-text {
+    text-align: center;
+    width: 100%;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+    /* ===== carusel media ===== */
+    @media only screen and (max-width: 447px) {
+
+        .carusel-heading{
+            font-size: 45px;
+            margin-bottom: 40px;
+            max-width: 90%;
+            padding-top: 50px;
+            border-bottom: #20c997 3px solid;
+        }
+        
+        .carusel-text {
+            max-width: 90%;
+            font-size: 14px;
+            margin-bottom: 40px;
+        }
+    }
+
+
+    /* ===== card ===== */
+.world-card-heading {
+    text-transform: uppercase;
+    color: #fff;
+    width: 100%;
+    max-width: 430px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    border-right: 3px solid #20c997;
+    border-left: 3px solid #20c997;
+}
+
+.card {
+    border: none;
+    border-top:3px solid #20c997;
+    border-bottom:3px solid #20c997;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.card:not(:last-child) {
+    margin-right: 20px;
+}
+
+.card:nth-child(1){
+    border-left: 2px solid #20c997;
+} 
+
+.card:nth-child(3){
+    border-right: 2px solid #20c997;
+} 
+
+.card-title {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    color: #20c997;
+}
+ /* ===== card media ===== */
+ @media only screen and (max-width: 447px) {
+    .world-card-heading {
+        text-align: center;
+        max-width: 300px;
+        font-size: 35px;
+    }
+    
+    .card {
+        border:2px solid #20c997;
+        border-radius: 5px;
+        margin-top: 70px;
+    }
+    
+    .card:not(:last-child) {
+        margin-right:0px;
+    }
+ }
+
+
+    /* ==== form ==== */
+.section-form {
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+
+.form-wrapper {
+    padding-top: 60px;
+    border: 4px solid #20c997;
+    border-radius: 20px;
+}
+
+.form-heading {
+    color: #20c997;
+    text-transform: uppercase;
+    font-size: 35px;
+    width: 157px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:30px;
+}
+
+.line {
+    display: block;
+    width: 40px;
+    height: 4px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    background-color: #20c997;
+}
+
+.form-label {
+    color: #20c997;
+    font-size: 25px;
+    display: block;
+}
+
+.inpit-wrapper {
+    margin-bottom: 30px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-control {
+    border-right: 2px solid ;
+    border-color: #20c997;
+}
+
+.register-button {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 15px 0;
+    background-color: #20c997;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    transition: all 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #fff;
+    color: #20c997;
+    border-color: #20c997;
+}
+
+.form-answer {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #20c997;
+    font-size: 25px;
+    padding-top:10px ;
+    padding-bottom: 50px;
+}
+
+ /* ===== card media ===== */
+ @media only screen and (max-width: 447px) {
+    .section-form {
+        padding-bottom: 100px;
+    }
+    
+    .form-wrapper {
+        padding-bottom: 50px;
+        border: 2px solid #20c997;
+    }
+    
+    .form-heading {
+        font-size: 25px;
+        width: 112px;
+        margin-bottom:20px;
+    }
+    
+    .form-label {
+        font-size: 15px;
+    }
+    
+    .inpit-wrapper {
+        width: 80%;
+    }
+    
+    .register-button {
+        width: 80%;
+        padding: 6px 0;
+        font-size: 15px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .form-answer {
+        width: 80%;
+        font-size: 15px;
+        padding-top:0px ;
+        padding-bottom: 0px;
+    }
+    
+ }
+
+ footer{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #0a674b;
+ }
+
+ .FOOTER-TEXT {
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 100px;
+ }
+
+  /* ===== footer media ===== */
+  @media only screen and (max-width: 447px) {
+    footer{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #0a674b;
+        border-radius: -50px;
+     }
+    
+     .FOOTER-TEXT {
+        width: 80%;
+        font-size: 50px;
+     }
+  }
